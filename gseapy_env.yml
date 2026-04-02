@@ -1,0 +1,12 @@
+name: ceisel_mumm_gseapy
+dependencies:
+  - scanpy
+  - jupyter
+  - leidenalg
+  - gseapy
+  - pip
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
