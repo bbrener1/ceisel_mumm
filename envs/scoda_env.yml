@@ -1,0 +1,14 @@
+name: ceisel_mumm_scoda
+dependencies:
+  - scanpy
+  - jupyter
+  - leidenalg
+  - pip
+  - pip:
+    # - pydeseq2
+    - sccoda
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults

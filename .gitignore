@@ -1,7 +1,7 @@
 /raws/
 /data/
+/deseq_outputs/
+/gsea_pickles/
 /.ipynb_checkpoints/
 /__pycache__/
-*.xlsx
-*.csv
-*.h5ad
+*.sqlite

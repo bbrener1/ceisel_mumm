@@ -4,7 +4,12 @@ dependencies:
   - jupyter
   - leidenalg
   - gseapy
+  - pydeseq2
   - pip
+  - pip:
+    - pybiomart
+    - pydeseq2
+
 
 channels:
   - conda-forge

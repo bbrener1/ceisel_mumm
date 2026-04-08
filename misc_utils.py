@@ -3,6 +3,8 @@ from scipy.spatial.distance import pdist,squareform
 import matplotlib.pyplot as plt
 from scipy.stats import spearmanr
 from sklearn.metrics.pairwise import cosine_similarity
+from scipy.cluster.hierarchy import dendrogram,linkage
+
 
 def auto_split_range(data,cmap='bwr',force_range=None):
     output = {
