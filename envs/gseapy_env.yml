@@ -5,6 +5,7 @@ dependencies:
   - leidenalg
   - gseapy
   - pydeseq2
+  - adjusttext
   - pip
   - pip:
     - pybiomart

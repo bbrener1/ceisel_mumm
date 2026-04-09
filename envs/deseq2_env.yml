@@ -3,6 +3,7 @@ dependencies:
   - scanpy
   - jupyter
   - leidenalg
+  - adjusttext
   - pip
   - pip:
     - pydeseq2

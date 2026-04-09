@@ -4,4 +4,5 @@
 /gsea_pickles/
 /.ipynb_checkpoints/
 /__pycache__/
+/figures/
 *.sqlite
