@@ -135,7 +135,6 @@ def compound_argsort(*args):
     sorted_compound = sorted(compound,key=lambda x: (x[1],x[2]))
     return np.array([x[0] for x in sorted_compound])
 
-
 def single_agg(mtx,metric='cosine',method='average'):
     return dendrogram(linkage(mtx, metric=metric, method=method), no_plot=True)['leaves']
 
@@ -143,3 +142,17 @@ def double_agg(mtx,metric='cosine',method='average'):
     row_agg = dendrogram(linkage(mtx, metric=metric, method=method), no_plot=True)['leaves']
     col_agg = dendrogram(linkage(mtx.T, metric=metric, method=method), no_plot=True)['leaves']
     return mtx[row_agg].T[col_agg].T
+
+# Prisma color sets from Ceisel, saturation is low
+score_colors_original = {
+    'parthanatos': '#FFA0A0',
+    'necroptosis': '#CAFFCA',
+    'apoptosis': '#C8DEF9'
+}
+
+# Prisma color scheme boosted
+score_colors = {
+    'parthanatos': '#ff5050',
+    'necroptosis': '#65ff65',
+    'apoptosis': '#61a8ff',
+}
